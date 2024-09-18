@@ -11,3 +11,7 @@ git commit --allow-empty -m "first commit" //空でもできる
 git commit -m ' ' //変更を記録
 git push
 git pull //ここで変更が反映される
+
+※文字コードでエラーが出た場合
+git config --global core.autocrlf true
+改行コードの違いを改善
